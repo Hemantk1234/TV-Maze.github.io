@@ -1,0 +1,49 @@
+.formheading {
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.formlogin {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 6rem;
+}
+
+.label-form {
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 2rem;
+  margin-left: 1.3rem;
+  outline: none;
+}
+
+.Button-form {
+  margin-top: 2rem;
+  padding: 1rem 1rem;
+  font-size: 2.2rem;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Button-form:hover {
+  background-color: #262626;
+}
+
+.Para-form {
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}

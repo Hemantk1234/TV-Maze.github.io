@@ -1,3 +1,4 @@
+// This is the main component file that renders the other components
 import React from "react";
 import "./App.css";
 import ShowList from "./components/ShowList";

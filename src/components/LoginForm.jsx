@@ -1,3 +1,4 @@
+// Login Form Component is used to take the user's name and email as input and store it in the local storage.
 import React, { useState } from 'react';
 import './LoginForm.css'
 

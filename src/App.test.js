@@ -1,3 +1,4 @@
+// This file is used for testing the App component
 import { render, screen } from '@testing-library/react';
 import App from './App';
 

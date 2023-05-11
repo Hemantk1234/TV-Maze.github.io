@@ -1,3 +1,5 @@
+// This is the entry point of the application. It renders the App component into the root element.
+
 import React, { useContext, useEffect, useState } from "react";
 
 export const API_ENDPOINT = `https://api.tvmaze.com/search/shows?q=all`;
@@ -56,6 +58,7 @@ const AppProvider = ({ children }) => {
   );
 };
 
+// UseGlobalContext is a custom hook that we will use to consume the context in our components.
 const useGlobalContext = () => {
   return useContext(AppContext);
 };

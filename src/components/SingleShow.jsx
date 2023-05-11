@@ -1,4 +1,6 @@
-import React, { useState, useEffect } from "react";
+// This SingleShow Component is used to display the details of a single show. It is used in the App Component.
+
+import React, { useState, useEffect, Component } from "react";
 import { useParams } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 

@@ -1,3 +1,5 @@
+// This ShowList component is used to display the list of shows. It uses the useGlobalContext hook to get the shows and loading state from the context. It also uses the NavLink component from react-router-dom to link to the SingleShow component. The SingleShow component is used to display the details of a single show. The ShowList component is used in the App component.
+
 import React from "react";
 import { useGlobalContext } from "./ContextApi";
 import { NavLink } from "react-router-dom";
